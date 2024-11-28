@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  doc:
+    api-docs:
+      path: /v3/api-docs
+    swagger-ui:
+      path: /swagger-ui.html
+
+logging:
+  level:
+    root: INFO
+    com.example.chatapi: INFO
